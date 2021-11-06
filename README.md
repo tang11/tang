@@ -18,6 +18,5 @@ Here are some ideas to get you started:
 
 [![Tang's github activity graph](https://activity-graph.herokuapp.com/graph?username=tang11&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-[![Tang's github activity graph](https://activity-graph.herokuapp.com/graph?username=tang11&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/tang11/github-readme-activity-graph)
 
 
