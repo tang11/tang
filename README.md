@@ -12,7 +12,7 @@
 
 Here are some ideas to get you started:
 
-- 🚀 I use daily:   ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=java)
+- 🚀 I use daily:   ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=java)![GO](https://img.shields.io/badge/GO-bule?style=flat-square&logo=GO)
 - 💻 I work using:  ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=java)
 ![Jenkins](https://img.shields.io/badge/-Jenkins-black?style=plastic&logo=Jenkins) <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-%2300f.svg?logo=mysql&logoColor=white"></a> <a href="#"><img alt="Redis" src="https://img.shields.io/badge/redis-%23c83d2e.svg?logo=redis&logoColor=white"></a>
  <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>![Linux](https://img.shields.io/badge/Linux-black?style=flat-square&logo=linux)  ![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-black?style=flat-square&logo=jetbrains)
