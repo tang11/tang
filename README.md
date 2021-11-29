@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 - 🌱 Learning all about: ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python) ![GO](https://img.shields.io/badge/GO-bule?style=flat-square&logo=GO)
 
 
-- ⚡ Fun fact: 
+- ⚡ Fun fact: It would only take one hour to drive to space.If you got into your car, turned on the ignition, and drove up to the sky at 60 mph, it would take just one hour to get to outer space, according to astronomer Fred Hoyle. Of course, this is purely theoretical, but it sure is fun to think about!
 
 ## <h3 align="left">GitHub Stats</h3>
 
