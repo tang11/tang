@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
+#
+# This file contains configuration flags to customize your site
+#
 
-You can use the [editor on GitHub](https://github.com/tang11/tang11/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Name of your site (displayed in the header)
+name: Lijuan Tang
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Short bio or description (displayed in the header)
+description: Java Developer
 
-### Markdown
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/reverie.png
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#
+# Flags below are optional
+#
 
-```markdown
-Syntax highlighted code block
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: LijuanTang@gmail.com
+  facebook:
+  flickr:
+  github:
+  instagram:
+  linkedin: 
+  pinterest:
+  rss:
+  twitter:
+  stackoverflow: 
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  playconsole:
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: 
 
-1. Numbered
-2. List
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-43339302-11
 
-**Bold** and _Italic_ and `Code` text
+# For newer "GA4" analytics, use the following instead of the "UA" entry above
+#google_analytics_ga4: G-GABC1DEFG
 
-[Link](url) and ![Image](src)
-```
+# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
+# Used for Sitemap.xml and your RSS feed
+url: http://www.amitmerchant.com/reverie
+enforce_ssl: https://www.amitmerchant.com/reverie
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "/reverie"
 
-### Jekyll Themes
+#
+# !! You don't need to change any of the configuration flags below !!
+#
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tang11/tang11/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+permalink: /:title/
 
-### Support or Contact
+# The release of Jekyll Now that you're using
+version: v1.2.0
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+include: ['_pages']
+
+paginate: 6
+paginate_path: /page:num/
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
