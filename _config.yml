@@ -47,3 +47,5 @@ layout: default
   </div>
   {% endif %}
 </div>
+
+theme: jekyll-theme-slate
